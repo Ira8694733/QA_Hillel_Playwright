@@ -1,0 +1,21 @@
+{
+  "name": "hillelpwauto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:ui": "npx playwright test --ui",
+    "report": "npx playwright show-report"
+  },
+  "author": "",
+  "license": "ISC",
+  "module": "module",
+  "dependencies": {
+    "playwright": "^1.44.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "@types/node": "^20.12.12"
+  }
+}
